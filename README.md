@@ -6,7 +6,7 @@
 
 ## Problemas
 ### EmployeeManager
-1- SRP: Esta clase tiene varias responsabilidades que no están relacionadas; crear y eliminar empleados, calcular precios y guardar en archivo.
+1- SRP: Esta clase tiene varias responsabilidades que no están relacionadas; crear y eliminar empleados, calcular salarios y guardar en archivo.
 ### EmployeeOperations
 1-ISP: La interfaz tiene demasiadas responsabilidades, lo cual fuerza a la clase EmployeeManager a implementar métodos que no son necesarios
 ### PartTimeEmployee
