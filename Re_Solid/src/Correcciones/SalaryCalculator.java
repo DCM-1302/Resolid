@@ -1,9 +1,13 @@
 package Correcciones;
 
 public class SalaryCalculator {
+    private SalaryOperations salaryOperations;
+
+    public SalaryCalculator(SalaryOperations salaryOperations) {
+        this.salaryOperations = salaryOperations;
+    }
 
     public double calculateSalary(String name) {
-        EmployeeManager employeeManager = new EmployeeManager();
-        return employeeManager.calculateSalary(name);
+        return salaryOperations.calculateSalary(name);
     }
 }
