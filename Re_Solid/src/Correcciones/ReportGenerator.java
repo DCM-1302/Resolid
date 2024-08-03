@@ -1,12 +1,6 @@
 package Correcciones;
 
-public class ReportGenerator {
+public interface ReportGenerator {
 
-    public void generateReportExcel(EmployeeManager employeeManager) {
-        // Generar reporte
-    }
-
-    public void generateReportPDF(EmployeeManager employeeManager) {
-        // Generar reporte
-    }
+    void generateReport(EmployeeManager employeeManager);
 }
