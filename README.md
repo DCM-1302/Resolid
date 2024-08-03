@@ -13,5 +13,7 @@
 1- LSP: La clase Employee no puede ser reemplazada por un PartTime debido a que ésta última usa un método para lanzar una UnsupportedOperationExcepion.
 ### ReportGenerator
 1- OCP: 
+
+2-DIP: La clase depende directamente de un EmployeeManager en vez de una abstracción.
 ### SalaryCalculator
 1- DIP: SalaryCalculator está creando una instancia EmployeeManager para funcionar, incrementando el acoplamiento. 
