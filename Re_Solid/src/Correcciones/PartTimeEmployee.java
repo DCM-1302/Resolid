@@ -1,8 +1,8 @@
 package Correcciones;
 
 public class PartTimeEmployee extends Employee {
-    @Override
-    public String getName() {
-        return "Patricio";
+    
+    public PartTimeEmployee(String name, String departament) {
+        super(name, departament);
     }
 }
